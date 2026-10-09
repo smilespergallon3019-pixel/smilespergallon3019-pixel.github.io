@@ -1,0 +1,279 @@
+{
+  "_readme": [
+    "Lamplight — the cast's notification lines. Edit here, save (Commit), and every phone picks it up the next time the game is opened.",
+    "RULES (the game refuses the WHOLE file if any one is broken — nothing changes on any phone, and the Developer log in Settings says why):",
+    "1. version: a whole number. Raise it by 1 EVERY time you save, or phones ignore the file.",
+    "2. who: dolphin, owl or gull. title: 28 characters max. line: 150 characters max. No emoji, no line breaks.",
+    "3. daily lines must contain {artist} and {title} — the game fills in the evening's painting.",
+    "4. COUNTS: lines and roast must NOT be a multiple of 7 (24 and 15 are fine; 21, 28 are not). daily must be odd and not end in 5 (13, 11, 17 fine; 10, 12, 15 not).",
+    "5. lines = the cast's nonsense (every 3rd evening), roast = the dig at the player (every 3rd), daily = the evening painting note (every 3rd).",
+    "Check the JSON is valid before saving (a missing comma breaks it): paste it into jsonlint.com."
+  ],
+  "version": 1,
+  "lines": [
+    {
+      "who": "gull",
+      "title": "Reported.",
+      "line": "A visitor finished today’s painting in nine moves. We reported them to the curator."
+    },
+    {
+      "who": "owl",
+      "title": "For the record",
+      "line": "The dolphin told everyone you couldn’t finish the Hokusai. I said nothing. I defended you a little."
+    },
+    {
+      "who": "owl",
+      "title": "The Vermeer, again",
+      "line": "It’s been a while. The Vermeer is starting to ask questions."
+    },
+    {
+      "who": "owl",
+      "title": "Bench update",
+      "line": "The gulls took your bench. I did nothing. It is, however, your bench."
+    },
+    {
+      "who": "gull",
+      "title": "It was the dolphin",
+      "line": "Someone called today’s painting “too easy.” It was the dolphin. It’s always the dolphin."
+    },
+    {
+      "who": "gull",
+      "title": "Pigeon situation",
+      "line": "We’ve started a rumour about the pigeons. We are staying out of it. Come stay out of it with us."
+    },
+    {
+      "who": "owl",
+      "title": "He wants a wing",
+      "line": "The dolphin wants a wing named after him. We’re all being very normal about it."
+    },
+    {
+      "who": "owl",
+      "title": "From the night guard",
+      "line": "The night guard says the paintings look at her. Only the unfinished ones. Just passing that along."
+    },
+    {
+      "who": "owl",
+      "title": "I need you to know",
+      "line": "The dolphin called himself “the talent” in a meeting. There was no meeting. He called one to say it."
+    },
+    {
+      "who": "gull",
+      "title": "EMERGENCY (gulls)",
+      "line": "We have a fry. One fry. There are eleven of us. Come before this becomes a war."
+    },
+    {
+      "who": "owl",
+      "title": "Legal update",
+      "line": "The dolphin has trademarked his own name. The pond has one dolphin. Nobody knows what this achieves."
+    },
+    {
+      "who": "owl",
+      "title": "Overheard",
+      "line": "The dolphin, to a pigeon, at length: “my best friend hasn’t visited.” It was the pigeon’s first day."
+    },
+    {
+      "who": "gull",
+      "title": "Since when??",
+      "line": "My mom knitted me a sweater. Since when does she knit??"
+    },
+    {
+      "who": "owl",
+      "title": "Is this the end?",
+      "line": "My kid said some numbers and laughed. Is this the end?"
+    },
+    {
+      "who": "dolphin",
+      "title": "I live in the pond now",
+      "line": "I waved at someone who wasn’t waving at me. I live in the pond now."
+    },
+    {
+      "who": "owl",
+      "title": "The fry incident",
+      "line": "The gulls found a french fry at nine this morning. It’s been a whole thing."
+    },
+    {
+      "who": "dolphin",
+      "title": "“You too.”",
+      "line": "I said “you too” when the fish said “enjoy your meal.” I’ve thought about it all day."
+    },
+    {
+      "who": "gull",
+      "title": "Fridge, twice",
+      "line": "I opened the fridge, forgot why, closed it, then opened it again out of respect."
+    },
+    {
+      "who": "owl",
+      "title": "Six years",
+      "line": "My neighbour said “we should get coffee sometime.” That was six years ago. I think about it weekly."
+    },
+    {
+      "who": "owl",
+      "title": "We both knew",
+      "line": "I told my dentist I floss. We both knew."
+    },
+    {
+      "who": "dolphin",
+      "title": "Confession",
+      "line": "I told the fish I was busy tonight. I am not busy tonight. I’m holding the lamp. Come make me honest."
+    },
+    {
+      "who": "owl",
+      "title": "The owl has a request",
+      "line": "I told the night guard you were “a good one.” I have never lied. I am not starting for you. Come."
+    },
+    {
+      "who": "gull",
+      "title": "We took a vote",
+      "line": "Nine gulls say you’re coming tonight. One abstained. He was eating. Come settle it."
+    },
+    {
+      "who": "dolphin",
+      "title": "Nothing is wrong",
+      "line": "I’m fine. The pond is fine. The lamp is lit. That’s three “fine”s. Please come."
+    }
+  ],
+  "roast": [
+    {
+      "who": "dolphin",
+      "title": "Be honest",
+      "line": "You rotated the same piece four times and called it strategy. I watched. I have nothing else to do."
+    },
+    {
+      "who": "gull",
+      "title": "We talked about you",
+      "line": "We described you to the pigeons as “very confident for someone who checks the picture that much.” They got it."
+    },
+    {
+      "who": "owl",
+      "title": "A small observation",
+      "line": "You hold the phone like the painting owes you money. It doesn’t. Come anyway."
+    },
+    {
+      "who": "owl",
+      "title": "Your streak",
+      "line": "You call it a streak. I call it three days with a gap in the middle. We can both be right. You are less right."
+    },
+    {
+      "who": "dolphin",
+      "title": "Congratulations",
+      "line": "You finished a painting yesterday and told no one. Correct. There was nothing to tell."
+    },
+    {
+      "who": "gull",
+      "title": "Question",
+      "line": "Do you squint at the picture on purpose, or is that just your face now? Asking for all eleven of us."
+    },
+    {
+      "who": "owl",
+      "title": "About the hint button",
+      "line": "You tapped the hint like it owed you an apology. It’s a button. It has been very patient with you."
+    },
+    {
+      "who": "dolphin",
+      "title": "I’ve seen your moves",
+      "line": "You solve like someone parallel parking in front of a crowd. It works. It is not pretty. Come do it again."
+    },
+    {
+      "who": "gull",
+      "title": "Statement",
+      "line": "You said “one more” four times last night. We counted. We can’t count. It was still four."
+    },
+    {
+      "who": "owl",
+      "title": "Noted",
+      "line": "You hold your breath on the last piece. Every time. The painting is not going anywhere. You might."
+    },
+    {
+      "who": "dolphin",
+      "title": "Real talk",
+      "line": "Nine moves is not a personality. I’ve seen your Hokusai. Come try again where I can watch."
+    },
+    {
+      "who": "gull",
+      "title": "Reminder",
+      "line": "You told the owl you “don’t need the picture.” You then looked at the picture nine times. It’s fine. We look too."
+    },
+    {
+      "who": "owl",
+      "title": "A theory",
+      "line": "Nobody rotates a corner piece that many times by accident. I have a theory. Come disprove it."
+    },
+    {
+      "who": "dolphin",
+      "title": "Careful",
+      "line": "You’re one skipped evening away from the gulls calling you “the former visitor.” They’ve already drafted it."
+    },
+    {
+      "who": "gull",
+      "title": "Vote result",
+      "line": "We ranked the visitors by grace under pressure. You’re fourth. There are four of you. Come improve."
+    }
+  ],
+  "daily": [
+    {
+      "who": "dolphin",
+      "title": "The dolphin has notes",
+      "line": "Tonight it’s {artist} — {title}. He says the corners will get you. Come make him wrong."
+    },
+    {
+      "who": "owl",
+      "title": "Owl. Reporting in.",
+      "line": "{title} is on the easel. {artist}. I’ve been guarding it since four. I am tired. Come."
+    },
+    {
+      "who": "gull",
+      "title": "The gulls are ON the easel",
+      "line": "Tonight: {artist}, {title}. We’ve already stood on it. Someone responsible should finish it."
+    },
+    {
+      "who": "owl",
+      "title": "Painting hung. Lamp lit.",
+      "line": "{artist} — {title}. The dolphin bet me you’d skip it. Don’t let him win. He’s unbearable."
+    },
+    {
+      "who": "owl",
+      "title": "It’s a big one tonight",
+      "line": "{title}, by {artist}. I said it was “fine.” I never say “fine.” Read into that."
+    },
+    {
+      "who": "gull",
+      "title": "A situation at the easel",
+      "line": "We tried to solve {title} ourselves. It went badly. {artist} deserves better than us. Come."
+    },
+    {
+      "who": "owl",
+      "title": "The curator asked about you",
+      "line": "Tonight is {artist} — {title}. We said you were on your way. Please be on your way."
+    },
+    {
+      "who": "dolphin",
+      "title": "I’m not bothered",
+      "line": "{title} is up. {artist}. I’ve checked the door four times. Not because of you. Come anyway."
+    },
+    {
+      "who": "owl",
+      "title": "Owl, quietly",
+      "line": "{artist} tonight. {title}. I laid the pieces out. Nobody asked me to. I did it anyway."
+    },
+    {
+      "who": "gull",
+      "title": "GULL DISPATCH",
+      "line": "TONIGHT: {title}. {artist}. We’ve eaten nothing since noon from nerves. A lie. Come anyway."
+    },
+    {
+      "who": "dolphin",
+      "title": "The dolphin says it’s easy",
+      "line": "{artist} — {title}. “The easy one,” he says. He has never finished a single painting. Not one."
+    },
+    {
+      "who": "owl",
+      "title": "Someone is waiting",
+      "line": "{title}, {artist}, on the easel, in the dark, with me. I don’t mind. I mind a little."
+    },
+    {
+      "who": "gull",
+      "title": "This is not a drill",
+      "line": "It is slightly a drill. {artist} — {title} is up and the gulls have been circling since lunch."
+    }
+  ]
+}
